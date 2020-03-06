@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/eebbk/H7000/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/eebbk/H7000/proprietary/etc/init/dpmd.rc:system/etc/init/dpmd.rc \
     vendor/eebbk/H7000/proprietary/etc/init/wfdservice.rc:system/etc/init/wfdservice.rc \
-    vendor/eebbk/H7000/proprietary/etc/modem/Diag.cfg:system/etc/modem/Diag.cfg \
     vendor/eebbk/H7000/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/eebbk/H7000/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/eebbk/H7000/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
@@ -29,7 +28,6 @@ PRODUCT_COPY_FILES += \
     vendor/eebbk/H7000/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/eebbk/H7000/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/eebbk/H7000/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
-    vendor/eebbk/H7000/proprietary/etc/permissions/lpa.xml:system/etc/permissions/lpa.xml \
     vendor/eebbk/H7000/proprietary/etc/permissions/privapp-permissions-com.qualcomm.location.xml:system/etc/permissions/privapp-permissions-com.qualcomm.location.xml \
     vendor/eebbk/H7000/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/eebbk/H7000/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
@@ -46,7 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/eebbk/H7000/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/eebbk/H7000/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/eebbk/H7000/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
-    vendor/eebbk/H7000/proprietary/framework/uimlpalibrary.jar:system/framework/uimlpalibrary.jar \
     vendor/eebbk/H7000/proprietary/frameworks/vendor.qti.hardware.alarm-V1.0-java.jar:system/frameworks/vendor.qti.hardware.alarm-V1.0-java.jar \
     vendor/eebbk/H7000/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
     vendor/eebbk/H7000/proprietary/lib/extractors/libmmparser.so:system/lib/extractors/libmmparser.so \
@@ -145,15 +142,6 @@ PRODUCT_COPY_FILES += \
     vendor/eebbk/H7000/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
     vendor/eebbk/H7000/proprietary/vendor/bin/xtwifi-client:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-client \
     vendor/eebbk/H7000/proprietary/vendor/bin/xtwifi-inet-agent:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-inet-agent \
-    vendor/eebbk/H7000/proprietary/vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb \
-    vendor/eebbk/H7000/proprietary/vendor/etc/acdbdata/Forte/Forte_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_General_cal.acdb \
-    vendor/eebbk/H7000/proprietary/vendor/etc/acdbdata/Forte/Forte_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Global_cal.acdb \
-    vendor/eebbk/H7000/proprietary/vendor/etc/acdbdata/Forte/Forte_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Handset_cal.acdb \
-    vendor/eebbk/H7000/proprietary/vendor/etc/acdbdata/Forte/Forte_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Hdmi_cal.acdb \
-    vendor/eebbk/H7000/proprietary/vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Headset_cal.acdb \
-    vendor/eebbk/H7000/proprietary/vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Speaker_cal.acdb \
-    vendor/eebbk/H7000/proprietary/vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_workspaceFile.qwsp \
-    vendor/eebbk/H7000/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/eebbk/H7000/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/eebbk/H7000/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
     vendor/eebbk/H7000/proprietary/vendor/etc/camera/csidtg_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_camera.xml \
