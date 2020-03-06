@@ -23,12 +23,10 @@ PRODUCT_COPY_FILES += \
     vendor/eebbk/H7000/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/eebbk/H7000/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/eebbk/H7000/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
-    vendor/eebbk/H7000/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/eebbk/H7000/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/eebbk/H7000/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/eebbk/H7000/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/eebbk/H7000/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
-    vendor/eebbk/H7000/proprietary/etc/permissions/privapp-permissions-com.qualcomm.location.xml:system/etc/permissions/privapp-permissions-com.qualcomm.location.xml \
     vendor/eebbk/H7000/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/eebbk/H7000/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
     vendor/eebbk/H7000/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
@@ -78,14 +76,11 @@ PRODUCT_COPY_FILES += \
     vendor/eebbk/H7000/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
     vendor/eebbk/H7000/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
     vendor/eebbk/H7000/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
-    vendor/eebbk/H7000/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
-    vendor/eebbk/H7000/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/eebbk/H7000/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/eebbk/H7000/proprietary/lib64/libdpmctmgr.so:system/lib64/libdpmctmgr.so \
     vendor/eebbk/H7000/proprietary/lib64/libdpmfdmgr.so:system/lib64/libdpmfdmgr.so \
     vendor/eebbk/H7000/proprietary/lib64/libdpmframework.so:system/lib64/libdpmframework.so \
     vendor/eebbk/H7000/proprietary/lib64/libdpmtcm.so:system/lib64/libdpmtcm.so \
-    vendor/eebbk/H7000/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
     vendor/eebbk/H7000/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
     vendor/eebbk/H7000/proprietary/lib64/librcc.so:system/lib64/librcc.so \
     vendor/eebbk/H7000/proprietary/lib64/libwfdclient.so:system/lib64/libwfdclient.so \
@@ -95,7 +90,6 @@ PRODUCT_COPY_FILES += \
     vendor/eebbk/H7000/proprietary/lib64/vendor.qti.gnss@1.1.so:system/lib64/vendor.qti.gnss@1.1.so \
     vendor/eebbk/H7000/proprietary/lib64/vendor.qti.gnss@1.2.so:system/lib64/vendor.qti.gnss@1.2.so \
     vendor/eebbk/H7000/proprietary/lib64/vendor.qti.gnss@2.0.so:system/lib64/vendor.qti.gnss@2.0.so \
-    vendor/eebbk/H7000/proprietary/lib64/vendor.qti.gnss@2.1.so:system/lib64/vendor.qti.gnss@2.1.so \
     vendor/eebbk/H7000/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/eebbk/H7000/proprietary/vendor/bin/DR_AP_Service:$(TARGET_COPY_OUT_VENDOR)/bin/DR_AP_Service \
     vendor/eebbk/H7000/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
@@ -106,7 +100,6 @@ PRODUCT_COPY_FILES += \
     vendor/eebbk/H7000/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
     vendor/eebbk/H7000/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/eebbk/H7000/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
-    vendor/eebbk/H7000/proprietary/vendor/bin/hw/qcrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qcrild \
     vendor/eebbk/H7000/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
     vendor/eebbk/H7000/proprietary/vendor/bin/hw/vendor.qti.gnss@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.gnss@2.0-service \
     vendor/eebbk/H7000/proprietary/vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.alarm@1.0-service \
@@ -223,12 +216,10 @@ PRODUCT_COPY_FILES += \
     vendor/eebbk/H7000/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/VZW/VZW_profile6.xml \
     vendor/eebbk/H7000/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
     vendor/eebbk/H7000/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
-    vendor/eebbk/H7000/proprietary/vendor/etc/hdr_config.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/hdr_config.cfg \
     vendor/eebbk/H7000/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/eebbk/H7000/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.widevine.rc \
     vendor/eebbk/H7000/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service-qti.rc \
     vendor/eebbk/H7000/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
-    vendor/eebbk/H7000/proprietary/vendor/etc/init/init.time_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.time_daemon.rc \
     vendor/eebbk/H7000/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/eebbk/H7000/proprietary/vendor/etc/init/vendor.qti.gnss@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.gnss@2.0-service.rc \
     vendor/eebbk/H7000/proprietary/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.alarm@1.0-service.rc \
@@ -239,15 +230,8 @@ PRODUCT_COPY_FILES += \
     vendor/eebbk/H7000/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
     vendor/eebbk/H7000/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
     vendor/eebbk/H7000/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
-    vendor/eebbk/H7000/proprietary/vendor/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml \
-    vendor/eebbk/H7000/proprietary/vendor/etc/qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel.xml \
-    vendor/eebbk/H7000/proprietary/vendor/etc/sdr_config.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/sdr_config.cfg \
     vendor/eebbk/H7000/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/eebbk/H7000/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
-    vendor/eebbk/H7000/proprietary/vendor/etc/thermal-engine-sdm660-high.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sdm660-high.conf \
-    vendor/eebbk/H7000/proprietary/vendor/etc/thermal-engine-sdm660-map.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sdm660-map.conf \
-    vendor/eebbk/H7000/proprietary/vendor/etc/thermal-engine-sdm660-nolimits.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sdm660-nolimits.conf \
-    vendor/eebbk/H7000/proprietary/vendor/etc/thermal-engine-sdm660.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sdm660.conf \
     vendor/eebbk/H7000/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/eebbk/H7000/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/eebbk/H7000/proprietary/vendor/firmware/a512_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a512_zap.b00 \
@@ -281,6 +265,7 @@ PRODUCT_COPY_FILES += \
     vendor/eebbk/H7000/proprietary/vendor/lib/hw/activity_recognition.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/activity_recognition.sdm660.so \
     vendor/eebbk/H7000/proprietary/vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.keymaster@3.0-impl-qti.so \
     vendor/eebbk/H7000/proprietary/vendor/lib/hw/camera.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.sdm660.so \
+    vendor/eebbk/H7000/proprietary/vendor/lib/hw/consumerir.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/consumerir.default.so \
     vendor/eebbk/H7000/proprietary/vendor/lib/hw/gatekeeper.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.sdm660.so \
     vendor/eebbk/H7000/proprietary/vendor/lib/hw/keystore.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.sdm660.so \
     vendor/eebbk/H7000/proprietary/vendor/lib/hw/sound_trigger.primary.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.sdm660.so \
@@ -1869,7 +1854,6 @@ PRODUCT_COPY_FILES += \
     vendor/eebbk/H7000/proprietary/vendor/lib64/hw/activity_recognition.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/activity_recognition.sdm660.so \
     vendor/eebbk/H7000/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/eebbk/H7000/proprietary/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so \
-    vendor/eebbk/H7000/proprietary/vendor/lib64/hw/consumerir.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.default.so \
     vendor/eebbk/H7000/proprietary/vendor/lib64/hw/gatekeeper.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.sdm660.so \
     vendor/eebbk/H7000/proprietary/vendor/lib64/hw/keystore.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.sdm660.so \
     vendor/eebbk/H7000/proprietary/vendor/lib64/hw/vendor.qti.gnss@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@2.0-impl.so \
@@ -1978,7 +1962,6 @@ PRODUCT_COPY_FILES += \
     vendor/eebbk/H7000/proprietary/vendor/lib64/libqmi_common_so.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_common_so.so \
     vendor/eebbk/H7000/proprietary/vendor/lib64/libqmi_csi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_csi.so \
     vendor/eebbk/H7000/proprietary/vendor/lib64/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_encdec.so \
-    vendor/eebbk/H7000/proprietary/vendor/lib64/libqminvapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqminvapi.so \
     vendor/eebbk/H7000/proprietary/vendor/lib64/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmiservices.so \
     vendor/eebbk/H7000/proprietary/vendor/lib64/libqrtr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqrtr.so \
     vendor/eebbk/H7000/proprietary/vendor/lib64/libqseed3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqseed3.so \
@@ -2013,7 +1996,6 @@ PRODUCT_COPY_FILES += \
     vendor/eebbk/H7000/proprietary/vendor/lib64/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxml.so \
     vendor/eebbk/H7000/proprietary/vendor/lib64/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtadapter.so \
     vendor/eebbk/H7000/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtwifi_ulp_adaptor.so \
-    vendor/eebbk/H7000/proprietary/vendor/lib64/qcrild_librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qcrild_librilutils.so \
     vendor/eebbk/H7000/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
     vendor/eebbk/H7000/proprietary/vendor/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.0.so \
     vendor/eebbk/H7000/proprietary/vendor/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.postproc@1.0.so \
@@ -2048,26 +2030,17 @@ PRODUCT_COPY_FILES += \
     vendor/eebbk/H7000/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/eebbk/H7000/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/eebbk/H7000/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0.so \
-    vendor/eebbk/H7000/proprietary/vendor/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.latency@2.0.so \
-    vendor/eebbk/H7000/proprietary/vendor/radio/qcril_database/upgrade/0_initial.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/0_initial.sql \
-    vendor/eebbk/H7000/proprietary/vendor/radio/qcril_database/upgrade/1_version_intro.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/1_version_intro.sql \
-    vendor/eebbk/H7000/proprietary/vendor/radio/qcril_database/upgrade/2_version_add_wps_config.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/2_version_add_wps_config.sql \
-    vendor/eebbk/H7000/proprietary/vendor/radio/qcril_database/upgrade/3_version_update_wps_config.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/3_version_update_wps_config.sql
+    vendor/eebbk/H7000/proprietary/vendor/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.latency@2.0.so
 
 PRODUCT_PACKAGES += \
     libantradio \
     libgpustats \
     libthermalclient \
-    SoterService \
     embms \
-    uceShimService \
     CNEService \
     WfdService \
-    com.qualcomm.location \
     dpmserviceapp \
-    ims \
     qcrilmsgtunnel \
     PowerOffAlarm \
     TimeService \
-    WfdCommon \
-    chargeonlymode
+    WfdCommon
