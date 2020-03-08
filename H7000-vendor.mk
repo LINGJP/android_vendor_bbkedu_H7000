@@ -2036,11 +2036,22 @@ PRODUCT_PACKAGES += \
     libantradio \
     libgpustats \
     libthermalclient \
+    libtime_genoff \
+    com.quicinc.cne.api@1.0 \
+    com.quicinc.cne.api@1.1 \
+    com.quicinc.cne.constants@1.0 \
+    com.quicinc.cne.constants@2.0 \
+    com.quicinc.cne.constants@2.1 \
+    com.quicinc.cne.server@2.0 \
+    com.quicinc.cne.server@2.1 \
+    com.quicinc.cne.server@2.2 \
+    QtiTelephonyService \
+    datastatusnotification \
     embms \
+    imssettings \
     CNEService \
-    WfdService \
     dpmserviceapp \
+    ims \
     qcrilmsgtunnel \
     PowerOffAlarm \
-    TimeService \
-    WfdCommon
+    TimeService
